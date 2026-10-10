@@ -96,20 +96,3 @@ The optional classifier can be wrong. Its output is a model score, not an authen
 Official bulletins retain their original text. Essential hazard labels and preparedness guidance are translated; arbitrary source text and community descriptions are not automatically translated. Translations require local expert review before operational deployment.
 
 Automatic refresh/sync runs while the app is open or resumes. Background push notifications, guaranteed closed-app sync, emergency dispatch, verified routing and national shelter coverage are not implemented.
-
-
-## October 10 feature updates
-
-See `docs/NEW_FEATURES_2026-10-10.md`, `docs/PATHVIRGIL_TRANSLATION_REVIEW.md`, and `LOCATION_SIMULATION_UPDATE.md` (if present) for consented GPS, 15-language safety guidance, air quality, satellite toggles, nearby emergency-service lookup, moderator address entry, multiple clearly simulated scenarios, and the **Other incident** category. Regenerate the offline bundle using `pnpm offline:build` before deployment. Verify that the latest source includes each claimed update.
-
-
-## Community verification / hackathon judge access
-
-The Community Reports page separates **Unverified community submissions** from reviewed observations. Unreviewed descriptions, landmark details, and precise coordinates are not shown publicly. These are not official emergency alerts.
-
-The protected Moderator Dashboard (`/#review`) can support two different access keys as **Cloudflare Pages encrypted production secrets** (never store keys in code):
-
-- `MODERATOR_ACCESS_TOKEN`: team moderator, can view evidence and change review decisions/publish sourced shelters.
-- `JUDGE_ACCESS_TOKEN`: optional, separate **read-only** judge key, allowing inspection but no review or notice changes. **Not enabled unless configured** (the last confirmed production setup used only the moderator key).
-
-The server refuses authentication if both configured secrets are identical. See `docs/JUDGE_ACCESS_QUICKSTART.md` for configuration. Judges can receive temporary moderator access through the organizers' **private submission channel** if read-only judge access is not enabled, but this grants full moderator privileges. Never publish keys in the README or GitHub history. Rotate shared keys after the event.
