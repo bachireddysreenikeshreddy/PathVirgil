@@ -6,10 +6,6 @@
 
 PathVirgil is submitted as a **hosted web application and installable PWA**. **No Android APK is required or included in this release.** Some internal identifiers retain the former Harbor name to preserve existing database compatibility.
 
-> **Updating the existing Cloudflare Pages deployment:** Read `FINAL_RELEASE_GUIDE.md`. Preserve the real local `wrangler.jsonc`, existing D1 database/bindings, and production secrets. Never commit secrets or private database exports. See `docs/PAGES_DEPLOYMENT.md` for deployment steps.
-
-> Safety translations are drafts requiring review. See `docs/PATHVIRGIL_TRANSLATION_REVIEW.md` for status.
-
 A TravelTech hackathon pilot for **real-time crisis communication for tourists during extreme weather**. PathVirgil brings preparedness guidance, official alert feeds, local contacts, weather imagery and reviewed community reports into one interface.
 
 **Live web/PWA:** [https://pathvirgil.pages.dev/](https://pathvirgil.pages.dev/) — hosted on Cloudflare Pages. No custom domain or Android APK required.  
