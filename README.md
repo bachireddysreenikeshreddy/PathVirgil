@@ -131,3 +131,8 @@ PathVirgil includes a **protected Moderator Dashboard** that helps maintain the 
 **Important:** Community reports are not official government emergency alerts. Moderator review indicates that a report has been examined; it does not guarantee the incident's authenticity or replace instructions from local authorities.
 
 This community-driven approach makes PathVirgil more than a weather information platform—it enables collaborative situational awareness while maintaining safeguards against misinformation.
+
+
+
+video submission link:
+https://drive.google.com/drive/folders/1NfOvGzlkc6jHFTQrPpfu3Um0qgXTtDkS?usp=drive_link
