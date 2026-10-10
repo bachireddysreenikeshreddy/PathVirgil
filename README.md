@@ -96,3 +96,38 @@ The optional classifier can be wrong. Its output is a model score, not an authen
 Official bulletins retain their original text. Essential hazard labels and preparedness guidance are translated; arbitrary source text and community descriptions are not automatically translated. Translations require local expert review before operational deployment.
 
 Automatic refresh/sync runs while the app is open or resumes. Background push notifications, guaranteed closed-app sync, emergency dispatch, verified routing and national shelter coverage are not implemented.
+
+## Community-Driven Incident Reporting & Moderation
+
+PathVirgil integrates a **community-driven crisis reporting system** that enables tourists and local residents to share real-time information about hazardous conditions in their surroundings.
+
+### Community Incident Reporting
+
+- **Report Local Hazards:** Users can report flooding, damaged bridges, fallen trees, landslides, fallen power lines, blocked roads, and other emergencies.
+- **Location-Based Reporting:** Users can use their current GPS location or provide a nearby landmark to identify the affected area.
+- **Photo Evidence:** Users can attach photographs as supporting evidence. Images are compressed and stored privately using Cloudflare D1, without requiring additional cloud storage services.
+- **Offline Reporting:** Reports can be saved locally using IndexedDB when internet connectivity is unavailable and synchronized once connectivity is restored.
+- **Community Updates:** Tourists can view reported incidents, helping them stay informed about potentially dangerous conditions nearby.
+- **Report Status:** Reports are clearly distinguished as unverified or reviewed to prevent unconfirmed information from being mistaken for official emergency warnings.
+
+### Moderator Dashboard
+
+PathVirgil includes a **protected Moderator Dashboard** that helps maintain the reliability of community-generated information.
+
+- **Secure Access:** Only authorized moderators with a private access key can access the dashboard.
+- **Incident Review:** Moderators can examine submitted reports, locations, descriptions, and photographic evidence.
+- **Verification Workflow:** Moderators can approve or reject reports based on the available evidence.
+- **Community Safety Notices:** Reviewed incidents can be published as community cautions, while misleading or unsupported reports can be rejected.
+- **Audit Trail:** Moderation decisions are recorded to maintain accountability.
+
+### Community-Driven Safety Workflow
+
+1. **Report:** A tourist or resident submits an incident with location details and optional photographic evidence.
+2. **Store:** The report is securely recorded or queued locally when offline.
+3. **Review:** An authorized moderator examines the information and supporting evidence.
+4. **Update:** The report receives an appropriate review status, and confirmed community observations can be published as cautions.
+5. **Inform:** Other tourists can access the latest community information to make better-informed decisions.
+
+**Important:** Community reports are not official government emergency alerts. Moderator review indicates that a report has been examined; it does not guarantee the incident's authenticity or replace instructions from local authorities.
+
+This community-driven approach makes PathVirgil more than a weather information platform—it enables collaborative situational awareness while maintaining safeguards against misinformation.
