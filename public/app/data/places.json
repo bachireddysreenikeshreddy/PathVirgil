@@ -1,0 +1,81 @@
+[
+  {
+    "id": "osm-2154131305",
+    "name": "Traffic Police Station",
+    "lon": 80.1955516,
+    "lat": 12.6212684,
+    "kind": "police",
+    "availability": "unknown",
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org/node/2154131305",
+    "fetchedAt": "2026-10-10T01:17:25Z"
+  },
+  {
+    "id": "osm-2334799039",
+    "name": "Suradeep Hospital",
+    "lon": 80.1950156,
+    "lat": 12.6178199,
+    "kind": "hospital",
+    "availability": "unknown",
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org/node/2334799039",
+    "fetchedAt": "2026-10-10T01:17:25Z",
+    "address": "No. 15, Thirukulam Street, near Shore Temple, Mamallapuram, Tamil Nadu 603104 (check before visiting)",
+    "addressSource": "https://www.practo.com/kanchipuram/clinic/serene-life-hospital-porur"
+  },
+  {
+    "id": "osm-2375997491",
+    "name": "Police",
+    "lon": 80.1942737,
+    "lat": 12.6214889,
+    "kind": "police",
+    "availability": "unknown",
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org/node/2375997491",
+    "fetchedAt": "2026-10-10T01:17:25Z"
+  },
+  {
+    "id": "osm-7257518761",
+    "name": "Government Hospital, Mahabalipuram",
+    "lon": 80.180966,
+    "lat": 12.61773,
+    "kind": "hospital",
+    "availability": "unknown",
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org/node/7257518761",
+    "fetchedAt": "2026-10-10T01:17:25Z"
+  },
+  {
+    "id": "osm-7820652158",
+    "name": "Varam Health Care",
+    "lon": 80.1961711,
+    "lat": 12.6332544,
+    "kind": "hospital",
+    "availability": "unknown",
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org/node/7820652158",
+    "fetchedAt": "2026-10-10T01:17:25Z"
+  },
+  {
+    "id": "osm-7820652180",
+    "name": "Ananthi Clinic",
+    "lon": 80.193008,
+    "lat": 12.620367,
+    "kind": "clinic",
+    "availability": "unknown",
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org/node/7820652180",
+    "fetchedAt": "2026-10-10T01:17:25Z"
+  },
+  {
+    "id": "osm-7820652205",
+    "name": "Moorthy Hospital",
+    "lon": 80.1920299,
+    "lat": 12.6207093,
+    "kind": "hospital",
+    "availability": "unknown",
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org/node/7820652205",
+    "fetchedAt": "2026-10-10T01:17:25Z"
+  }
+]

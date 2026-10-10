@@ -1,0 +1,22 @@
+{
+  "name": "pathvirgil",
+  "pages_build_output_dir": "./public",
+  "compatibility_date": "2026-10-10",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "harbor-production",
+      "database_id": "123e4567-e89b-12d3-a456-426614174000",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "harbor-photos-production"
+    }
+  ]
+}

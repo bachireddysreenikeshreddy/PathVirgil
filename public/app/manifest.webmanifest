@@ -1,0 +1,25 @@
+{
+  "id": "/app/",
+  "name": "PathVirgil \u2014 Travel with clarity",
+  "short_name": "PathVirgil",
+  "description": "Offline tourist help, weather and reviewed local reports.",
+  "start_url": "/app/index.html",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#f6f5f0",
+  "theme_color": "#153f40",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import {pipeline,env} from './ml/transformers.web.min.js';
+env.allowLocalModels=false;env.backends.onnx.wasm.numThreads=1;env.backends.onnx.wasm.wasmPaths=new URL('./ml/',import.meta.url).href;
+let classifier;
+self.onmessage=async event=>{try{self.postMessage({type:'progress',message:'Loading experimental model…'});classifier??=await pipeline('image-classification','onnx-community/ai-image-detection-ONNX',{dtype:'q8',device:'wasm',progress_callback:p=>{if(p.progress)self.postMessage({type:'progress',progress:Math.round(p.progress)});}});const result=await classifier(event.data.url,{top_k:2});self.postMessage({type:'result',result,model:'onnx-community/ai-image-detection-ONNX',note:'Experimental model output, not a calibrated probability or verification.'});}catch(e){self.postMessage({type:'error',error:String(e.message||e)});}};
